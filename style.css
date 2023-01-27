@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F3EAE3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    display: flex;
+    /* gap: 10px; */
+    
+}
+.left-data{
+    width: 250px;
+    /* height: 200px */
+}
+.left-data img{
+    width: 250px;
+    border-radius: 10px 0px 0px 10px ;
+    /* height: 20px; */
+    height: 390px;
+}
+
+.right-side{
+    border-radius: 0px 10px 10px 0px ;
+    background-color: #fff;
+    width: 200px;
+    padding: 20px 20px;
+    height: 350.5px;
+}
+.right-side span{
+    color: #999BA4;
+    font-size: small;
+}
+.right-side h1{
+    margin-top: 10px;
+}
+.right-side p{
+    color: #999BA4;
+    margin-top: 10px;
+}
+.price{
+    display: flex;
+    gap: 30px;
+}
+.price h1{
+    color: #3D8168;
+    font-size: xx-large;
+    margin: 0;
+}
+del{
+    display: flex;
+    align-items: center;
+    color: darkgray;
+}
+button{
+    margin-top: 20px;
+}
+.btn{
+    padding: 10px 55px;
+    border: none;
+    background-color: #3D8168;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+.btn:hover{
+    background-color: #2b5b49;
+}
+
+
+
+/* media query  */
+@media screen and (max-width: 500px){
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.left-data img{
+    width: 329.5px;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px ;
+}
+.right-side{
+    border-radius: 0px 0px 10px 10px ;
+    background-color: #fff;
+    width: 290px;
+    padding: 20px 20px;
+    height: 300px;
+}
+.btn{
+    padding: 10px 100px;
+    border: none;
+    background-color: #3D8168;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.container{
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+}
